@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form 4</title>
+</head>
+<body>
+    <form>
+        <table border="1" align="center" width="60%" cellpandding="5px">
+            <tr>
+                <th colspan="4"><h2>Registration Form</h2></th>
+            </tr>
+            <tr>
+                <td><label for="name">Student Name</label></td>
+                <td ><input type="text" id="name" placeholder="First Name" required></td>
+                <td><input type="text" placeholder="Middle Name"></td>
+                <td> <input type="text" placeholder="Last Name" required></td>
+            </tr>
+            <tr>
+                <td><label for="father">Father's Name</label></td>
+                <td><input type="text" placeholder="Enter your father's name" id="father"></td>
+                <td> <label for="mother">Mother's Name</label></td>
+                <td> <input type="text" placeholder="Enter your mather's name" id="mother"></td>
+            </tr>
+            <tr>
+                <td><label for="date">Date of Birth</label></td>
+                <td><input type="date"  id="date"></td>
+                <td><label for="gender"> Gender</label></td>
+                <td> Male<input type="radio" name="gender" >
+                Female<input type="radio" name="gender"></td>
+            </tr>
+            <tr>
+                <td><label for="t4">Category</label></td>
+                <td>Gen<input type="radio" name="Category" >
+                OBC<input type="radio" name="Category">
+            SC/ST<input type="radio" name="Category"></td>
+                <td><label for="t5">Handicapped</label></td>
+                <td>Yes<input type="radio" name="Handicapped" >
+                No<input type="radio" name="Handicapped"> </td>
+            </tr>
+            <tr>
+                <td><label for="ex">Ex-Serviceman</label></td>
+                <td>Yas<input type="radio" name="Ex-Serviceman">
+                No<input type="radio" name="Ex-Serviceman"></td>
+                <td><label for="ews">EWS</label></td>
+                <td>Yas<input type="radio" name="EWS">
+                No<input type="radio" name="EWS"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email ID</label></td>
+                <td><input type="email" id="email"></td>
+                <td><label for="phone">Mobile No.</label></td>
+                <td><input type="number" id="phone"></td>
+            </tr>
+            <tr>
+                <td><label for="state">State</label></td>
+                <td><select name="state" id="state">
+                    <option value="state">Select any One</option>
+                    <option value="state">Uttar Pradesh</option>
+                    <option value="state">Madhya Pradesh</option>
+
+                </select></td>
+                <td><label for="city">City</label></td>
+                <td>
+                    <select name="city" id="city">
+                    <option value="city">Select any One</option>
+                    <option value="city">Prayagraj</option>
+                    <option value="city">Kanpur</option>
+                    <option value="city">Bhopal</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="photo">Upload Photo</label></td>
+                <td><input type="file" id="photo"></td>
+                <td><label for="signature">Upload Signature</label></td>
+                <td><input type="file" id="signature"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3" align="center"><input type="submit"></td>
+               
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

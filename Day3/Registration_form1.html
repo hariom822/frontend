@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form 1</title>
+</head>
+<body>
+    
+
+<form>
+    <h2>Registration From </h2>
+    <label for="first name">first name</label>
+    <input type="text" name="first name" id="first name"><br><br>
+    <label for="second name">second name</label>
+    <input type="text" name="second name" id="second name"><br><br>
+    <label for="email">enter email</label>
+    <input type="email" name="email" id="email"><br><br>
+</form>
+
+
+
+
+<form action="/submit-employee" method="post">
+  <label>Full Name: <input type="text" name="fullName" required /></label><br><br>
+  <label>Email: <input type="email" name="email" required /></label><br><br>
+  <label>Department: <input type="text" name="department" /></label><br><br>
+  <label>Joining Date: <input type="date" name="joiningDate" /></label><br><br>
+  <label>Resume: <input type="file" name="resume" /></label><br><br>
+  <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
